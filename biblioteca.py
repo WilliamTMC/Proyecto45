@@ -1,2 +1,12 @@
-print("hello world")
-print("soy gay")
+def suma():
+    
+def resta(): 
+    
+def promedio():
+    
+def media():
+    
+def comparar():
+    
+def ordenar():
+
