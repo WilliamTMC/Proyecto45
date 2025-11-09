@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Bral",
+"Coordenadas":"22.98968°N,82.75576°O",
+"Productos":[{
+    "Leche Condensada":550,
+    "Jamon Especial(lb)":1000,
+    "Paquete de Salchicha(un)":500,
+    "Arroz(1kg)":650,
+    "Pechuga de Pollo(2kg)":5000,
+    "Hamburguesa(un)":120,
+    "Aceite(1lt)":1100,
+    "Jamonada de pollo (500g)":500,
+    "Frijoles Negros(1kg)":800,
+    "Refresco Gaseado de Lata":220
+}]}
