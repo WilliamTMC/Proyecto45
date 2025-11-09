@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"El Arco",
+"Coordenadas":"22.98661°N,82.75225°O",
+"Productos":[{
+    "Pasta de Tomate(un)":500,
+    "Refresco Zuko(un)":100,
+    "Higado de pollo(1kg)":900,
+    "Pechuga de Pollo(2kg)":4500,
+    "Papel Sanitario(4un)":650,
+    "Leche Condensada(un)":550,
+    "Refresco de lata":230,
+    "Arroz(1kg)":550,
+    "Harina de Trigo(1kg)":650,
+    "Aceite(1lt)":1000
+}]}

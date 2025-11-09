@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Colorama",
+"Coordenadas":"22.888933°N,-82.504027°O",
+"Productos":[{
+    "Refresco de Lata":220,
+    "Jamonada de Pollo(500g)":350,
+    "Azucar Blanca(lb)":320,
+    "Sal(lb)":75,
+    "Leche Condensada(un)":550,
+    "Papel Sanitario(4un)":600,
+    "Paquete de Salchicha(un)":300,
+    "Aceite(1lt)":990,
+    "Refresco Zuko":90,
+    "Arroz(1kg)":550
+}]}

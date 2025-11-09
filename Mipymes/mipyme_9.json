@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Domingo Lence",
+"Coordenadas":"22.890835°N,-82.510417°O",
+"Productos":[{
+    "Carton de Huevos":2600,
+    "Mortadella(500g)":550,
+    "Spaguetti(500g)":350,
+    "Azucar Blanca(1kg)":600,
+    "Arroz(1kg)":650,
+    "Pasta de Tomate":400,
+    "Picadillo de Pollo(400g)":400,
+    "Aceite(1lt)":950,
+    "Refresco de Lata":230,
+    "Leche Condensada":600
+}]}

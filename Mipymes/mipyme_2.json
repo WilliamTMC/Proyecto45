@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Mercado Chin",
+"Coordenadas":"22.98845°N,82.75609°O",
+"Productos":[{
+    "Arroz(1kg)":600,
+    "Refresco de Lata":220,
+    "Frijoles Negros(1kg)":800,
+    "Jamonada de Pollo (500g)":650,
+    "Refresco Zuko":100,
+    "Azucar Blaca(lb)":350,
+    "Aceite(1lt)":900,
+    "Pechuga de Pollo(2kg)":4500,
+    "Detergente(1kg)":750,
+    "Leche Condensada(un)":550
+}]}

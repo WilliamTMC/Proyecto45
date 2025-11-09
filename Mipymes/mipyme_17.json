@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Mercado Ideal",
+"Coordenadas":"22.98991°N,8275654°O",
+"Productos":[{
+    "Sal(lb)":90,
+    "Spaguetti(500g)":350,
+    "Arroz(1kg)":600,
+    "Frijoles Negros(1kg)":900,
+    "Aceite(1lt)":960,
+    "Pasta de Tomate(un)":500,
+    "Agua mineral(un)":120,
+    "Leche Condensada(un)":550,
+    "Refresco de Lata":220,
+    "Harina de Trigo(lb)":320
+}]}

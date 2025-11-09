@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Sanchez",
+"Coordenadas":"22.7165625°N,-83.0462031°O",
+"Productos":[{
+    "Spaguetti(500g)":350,
+    "Refresco de Lata":230,
+    "Arroz(1kg)":700,
+    "Papel Sanitario(4un)":650,
+    "Pasta de Tomate(un)":660,
+    "Aceite(1lt)":1000,
+    "Cerveza Cristal":500,
+    "Yogurt Probiotico(ilt)":850,
+    "Queso Gouda(3kg)":15250,
+    "Leche Condensada(un)":600
+}]}

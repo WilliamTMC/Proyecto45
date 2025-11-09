@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"La Reja Negra",
+"Coordenadas":"22.891810°N,-82.506045°O",
+"Productos":[{
+    "Jamonada de Pollo(500g)":600,
+    "Higado de Pollo(1kg)":800,
+    "Croquetas(10un)":250,
+    "Sardina(lata)":250,
+    "Mortadella(1kg)":1200,
+    "Refresco de Lata":230,
+    "Aceite(1lt)":1100,
+    "Carton de Huevos":2500,
+    "Leche Condensada(un)":600,
+    "Arroz(1kg)":500
+}]}

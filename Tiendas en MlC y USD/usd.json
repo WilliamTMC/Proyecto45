@@ -1,0 +1,57 @@
+{"Nombre":"La Real",
+ "Coordenadas":"",
+ "Productos":{
+
+    "Alimentos":
+
+    {"Azucar Blanca":1.80,
+     "Papas Prefritas":4.50,
+     "Sardina en Aceite":1.60,
+     "Sardina en Tomate":1.95,
+     "Pasta de Tomate(400g)":1.65,
+     "Queso Gouda PRemiun(3kg)":11.85,
+     "Queso Gouda(3kg)":10.65,
+     "Gelatina":2.75,
+     "Spaguetti":1.95,
+     "Pasta Corta":1.15,
+     "Fideos(500g)":1.7,
+     "Aceite Girasol(1lt)":2.4,
+     "Salchicha(10u)":2.75,
+     "Caja de Pollo (15kg)":29,
+     "Jugos(200ml)":0.6,
+     "Jugos(1lt)":2.35,
+     "Arroz(1kg)":2.8,
+     "Picadillo Condimentado":1,
+     "Picadillo Especial":2.25,
+     "Muslo de Pollo(4.54kg)":11.8,
+     "Salchicha(3kg)":8.25,
+     "Salchicha":1.3,
+     "Frijoles Rojos(1kg)":2.3,
+     "Frijoles Blancos":2.3,
+     "Frijoles Negros":3.2,
+     "Chicharos Partidos":1.6,
+     "Leche en Polvo(1kg)":11.85,
+     "Huevo Grado A":5.95,
+     "Huevo":5.25},
+
+     "Productos de Aseo":
+
+    {"Pasta Dental Pepsodent":2.90,
+     "Pasta Dental Colgate":2.20,
+     "Pasta Dental Clouset":2.10,
+     "Papel Sanitario":2.20,
+     "Jabon Jazmin":1.15,
+     "Jabon Rexona":0.95,
+     "Desodorante Rexona":1.70},
+
+     "Bebidas y Licores":
+
+     {"Refresco de Lata":0.55,
+     "Refresco de Pomo(1.5l)":1.50,
+     "Malta Perla Negra":0.85,
+     "Refresco Zuko":0.45,
+     "Agua Mineral(500g)":0.50,
+     "Agua Mineral(1500ml)":1.50}
+    }
+}
+

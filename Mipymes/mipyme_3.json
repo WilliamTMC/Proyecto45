@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"La Bodega",
+"Coordenadas":"22.98668°N,82.75320°O",
+"Productos":[{
+    "Refresco de Lata":230,
+    "Azucar Blanca(lb)":250,
+    "Aceite(1lt)":1000,
+    "Jamonada de Pollo(500g)":450,
+    "Arroz(1kg)":500,
+    "Leche Condensada(un)":500,
+    "Spaguetti(500g)":350,
+    "Pasta de Tomate(un)":450,
+    "Paquete de Salchicha(un)":400,
+    "Paquete de Pollo(10lb)":3900
+}]}

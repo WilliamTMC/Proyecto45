@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Dora Enamorados",
+"Coordenadas":"",
+"Productos":[{
+    "Paquete de Pollo(10lb)":3700,
+    "Arroz(1kg)":600,
+    "Leche Condensada(un)":650,
+    "Aceite(1lt)":960,
+    "Refresco de Lata":210,
+    "Azucar Blanca(lb)":325,
+    "Leche en Polvo(1kg)":2000,
+    "Chocolate(500g)":800,
+    "Frijoles Negro(1kg)":800,
+    "Harina de Trigo(1kg)":650
+}]}

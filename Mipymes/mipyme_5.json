@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"La Cabra",
+"Coordenadas":"22.892074°N,-82511891°O",
+"Productos":[{
+    "Leche Condensada": 550,
+    "Aceite(1lt)":1000,
+    "Pechuga de Pollo(2kg)":4300,
+    "Arroz(1kg)":550,
+    "Refresco de Lata":220,
+    "Spaguetti(500g)":350,
+    "Pasta de Tomate(un)":450,
+    "Refresco Zuko":100,
+    "Frijoles Negros(1kg)":750,
+    "Pasta de Bocadito(465ml)":1650
+}]}

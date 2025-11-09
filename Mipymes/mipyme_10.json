@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Mercado Daf",
+"Coordenadas":"22.795930°N,-82.506045°O",
+"Productos":[{
+    "Queso Gouda(3kg)":10500,
+    "Refresco de Lata":195,
+    "Carton de Huevos":2500,
+    "Leche Condensada(un)":600,
+    "Arroz(1kg)":650,
+    "Spaguetti(500g)":350,
+    "Aceite(1lt)":1000,
+    "Frijoles(1kg)":850,
+    "Paquete de Pollo(10lb)":3600,
+    "Papel Sanitario(4un)":470
+}]}

@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Los Galenos",
+"Coordenadas":"22.98868°N,82.75351°O",
+"Productos":[{
+    "Queso Gouda(3gk)":10500,
+    "Refresco de Lata":230,
+    "Arroz(1kg)":650,
+    "Azucar Blanca(lb)":350,
+    "Leche Condensada(un)":650,
+    "Higado de Pollo(1kg)":850,
+    "Jamonada de Pollo(500g)":600,
+    "Papel Sanitario(4un)":600,
+    "Aceite(1lt)":950,
+    "Spaguetti(500g)":350
+}]}

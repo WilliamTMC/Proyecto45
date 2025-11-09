@@ -1,13 +1,14 @@
-{"Nombre":"",
-"Productos":{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}}
+{"Nombre":"Paseo Real",
+"Coordenadas":"22.99196°N,82.75778°O",
+"Productos":[{
+    "Refresco de Lata":220,
+    "Arroz(1kg)":600,
+    "Spaguetti(500g)":350,
+    "Paquete de Pollo(10lb)":4200,
+    "Aceite(1lt)":970,
+    "Leche Condensada(un)":600,
+    "Croquetas(10un)":180,
+    "Pasta de Tomate(un)":450,
+    "Queso Gouda(3kg)":11250,
+    "Higado de Pollo(1kg)":750
+}]}
