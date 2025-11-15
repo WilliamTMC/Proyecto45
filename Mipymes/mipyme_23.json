@@ -1,14 +1,14 @@
-{"Nombre":"",
-"Coordenadas":"",
+{"Nombre":"La Cuchilla",
+"Coordenadas":"22.885790°N,-82.511558°O",
 "Productos":[{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
+    "Aceite(1lt)":950,
+    "Paquete de Codito(un)":350,
+    "Arroz(1kg)":650,
+    "Pasta de Tomate(un)":450,
+    "Refresco de Lata":210,
+    "Pechuga de Pollo(2kg)":4600,
+    "Jamonada(500g)":600,
+    "Leche Condensada":550,
+    "Hamburguesa(un)":85,
+    "Azucar Blanca(1kg)":250
 }]}

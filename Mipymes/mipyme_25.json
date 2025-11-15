@@ -1,14 +1,14 @@
-{"Nombre":"",
-"Coordenadas":"",
+{"Nombre":"Mercado La Joya",
+"Coordenadas":"22.904365°N,-83.157740°W",
 "Productos":[{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
+    "Azucar Blanca(lb)":300,
+    "Harina(1kg)":650,
+    "Refresco de Lata":230,
+    "Sal(lb)":80,
+    "Leche en Polvo(1kg)":2000,
+    "Arroz(1kg)":600,
+    "Aceite(1lt)":1100,
+    "Paquete de Pollo(10lb)":3900,
+    "Pasta de Tomate(un)":450,
+    "Jamonada de Pollo (500g)":650
 }]}

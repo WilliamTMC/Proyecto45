@@ -1,14 +1,14 @@
-{"Nombre":"",
-"Coordenadas":"",
+{"Nombre":"Los Abuelos",
+"Coordenadas":"22.792286°N,-82.506504°O",
 "Productos":[{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
+    "Refresco de Lata":220,
+    "Aceite(1lt)":1000,
+    "Molleja de Pollo(1kg)":1100,
+    "Paquete de Salchicha(un)":500,
+    "Picadillo de Pollo(400g)":500,
+    "Paquete de Codito(un)":320,
+    "Leche Condensada(un)":600,
+    "Cajas de Jugo(200ml)":180,
+    "Arroz(1kg)":550,
+    "Sal(lb)":75
 }]}
