@@ -1,14 +1,14 @@
 {"Nombre":"La Central",
-"Coordenadas":"22.96224°N,-82.507185°O",
-"Productos":[{
-    "Arroz(lb)":500,
-    "Harina(1kg)":700,
-    "Queso Gouda(1kg)":13500,
-    "Azucar Blanca(1kg)":600,
-    "Leche Condensada(un)":650,
-    "Refresco de Lata":220,
-    "Hamburguesa(un)":75,
-    "Aceite(1lt)":1000,
-    "Cerveza Cristal":500,
-    "Pasta de Tomate(un)":400
-}]}
+"Coordenadas":"22.96224,-82.507185",
+"Productos":[
+    {"nombre":"Arroz(lb)","precio":500},
+    {"nombre":"Harina(1kg)","precio":700},
+    {"nombre":"Queso Gouda(1kg)","precio":13500},
+    {"nombre":"Azucar Blanca(1kg)","precio":600},
+    {"nombre":"Leche Condensada(un)","precio":650},
+    {"nombre":"Refresco de Lata","precio":220},
+    {"nombre":"Hamburguesa(un)","precio":75},
+    {"nombre":"Aceite(1lt)","precio":1000},
+    {"nombre":"Cerveza Cristal","precio":500},
+    {"nombre":"Pasta de Tomate(un)","precio":400}
+]}

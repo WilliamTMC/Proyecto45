@@ -1,14 +1,14 @@
 {"Nombre":"Charcuteria Luis",
-"Coordenadas":"22.793406°N,-82.507984°O",
-"Productos":[{
-    "Carton de Huevos":2900,
-    "Arroz(1kg)":540,
-    "Acete(1lt)":950,
-    "Refresco de Lata":230,
-    "Jamon Viki(lb)":700,
-    "Pechuga de Pollo(2.5kg),":5500,
-    "Frijoles Negros(1kg)":600,
-    "Higado de Cerdo(lb)":650,
-    "Hamburguesa(un)":80,
-    "Azucar Blanca(lb)":260
-}]}
+"Coordenadas":"22.793406,-82.507984",
+"Productos":[
+    {"nombre":"Carton de Huevos","precio":2900},
+    {"nombre":"Arroz(1kg)","precio":540},
+    {"nombre":"Acete(1lt)","precio":950},
+    {"nombre":"Refresco de Lata","precio":230},
+    {"nombre":"Jamon Viki(lb)","precio":700},
+    {"nombre":"Pechuga de Pollo(2.5kg),","precio":5500},
+    {"nombre":"Frijoles Negros(1kg)","precio":600},
+    {"nombre":"Higado de Cerdo(lb)","precio":650},
+    {"nombre":"Hamburguesa(un)","precio":80},
+    {"nombre":"Azucar Blanca(lb)","precio":260}
+]}

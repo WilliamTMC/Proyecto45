@@ -1,14 +1,14 @@
 {"Nombre":"Colorama",
-"Coordenadas":"22.888933°N,-82.504027°O",
-"Productos":[{
-    "Refresco de Lata":220,
-    "Jamonada de Pollo(500g)":350,
-    "Azucar Blanca(lb)":320,
-    "Sal(lb)":75,
-    "Leche Condensada(un)":550,
-    "Papel Sanitario(4un)":600,
-    "Paquete de Salchicha(un)":300,
-    "Aceite(1lt)":990,
-    "Refresco Zuko":90,
-    "Arroz(1kg)":550
-}]}
+"Coordenadas":"22.888933,-82.504027",
+"Productos":[
+    {"nombre":"Refresco de Lata","precio":220},
+    {"nombre":"Jamonada de Pollo(500g)","precio":350},
+    {"nombre":"Azucar Blanca(lb)","precio":320},
+    {"nombre":"Sal(lb)","precio":75},
+    {"nombre":"Leche Condensada(un)","precio":550},
+    {"nombre":"Papel Sanitario(4un)","precio":600},
+    {"nombre":"Paquete de Salchicha(un)","precio":300},
+    {"nombre":"Aceite(1lt)","precio":990},
+    {"nombre":"Refresco Zuko","precio":90},
+    {"nombre":"Arroz(1kg)","precio":550}
+]}

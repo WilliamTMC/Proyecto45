@@ -1,14 +1,14 @@
 {"Nombre":"Dora Enamorados",
-"Coordenadas":"22.890671°N,-8.496234°O",
-"Productos":[{
-    "Paquete de Pollo(10lb)":3700,
-    "Arroz(1kg)":600,
-    "Leche Condensada(un)":650,
-    "Aceite(1lt)":960,
-    "Refresco de Lata":210,
-    "Azucar Blanca(lb)":325,
-    "Leche en Polvo(1kg)":2000,
-    "Chocolate(500g)":800,
-    "Frijoles Negro(1kg)":800,
-    "Harina de Trigo(1kg)":650
-}]}
+"Coordenadas":"22.890671,-8.496234",
+"Productos":[
+    {"nombre":"Paquete de Pollo(10lb)","precio":3700},
+    {"nombre":"Arroz(1kg)","precio":600},
+    {"nombre":"Leche Condensada(un)","precio":650},
+    {"nombre":"Aceite(1lt)","precio":960},
+    {"nombre":"Refresco de Lata","precio":210},
+    {"nombre":"Azucar Blanca(lb)","precio":325},
+    {"nombre":"Leche en Polvo(1kg)","precio":2000},
+    {"nombre":"Chocolate(500g)","precio":800},
+    {"nombre":"Frijoles Negro(1kg)","precio":800},
+    {"nombre":"Harina de Trigo(1kg)","precio":650}
+]}

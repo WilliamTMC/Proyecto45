@@ -1,14 +1,14 @@
 {"Nombre":"Mercado Azul",
-"Coordenadas":"22.796305°N,-82.507639°O",
-"Productos":[{
-    "Aceite(1lt)":950,
-    "Refresco de Lata":230,
-    "Pechuga de Pollo(2kg)":4200,
-    "Higado de Pollo(1kg)":800,
-    "Azucar Blanca(lb)":300,
-    "Frijoles Negros(1lb)":400,
-    "Leche Condensadda(un)":650,
-    "Paquete de Salchicha(un)":500,
-    "Picadillo de Pollo(400g)":400,
-    "Spaguetti(500g)":350
-}]}
+"Coordenadas":"22.796305,-82.507639",
+"Productos":[
+    {"nombre":"Aceite(1lt)","precio":950},
+    {"nombre":"Refresco de Lata","precio":230},
+    {"nombre":"Pechuga de Pollo(2kg)","precio":4200},
+    {"nombre":"Higado de Pollo(1kg)","precio":800},
+    {"nombre":"Azucar Blanca(lb)","precio":300},
+    {"nombre":"Frijoles Negros(1lb)","precio":400},
+    {"nombre":"Leche Condensadda(un)","precio":650},
+    {"nombre":"Paquete de Salchicha(un)","precio":500},
+    {"nombre":"Picadillo de Pollo(400g)","precio":400},
+    {"nombre":"Spaguetti(500g)","precio":350}
+]}

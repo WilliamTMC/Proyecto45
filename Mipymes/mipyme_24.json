@@ -1,14 +1,14 @@
 {"Nombre":"Mercado Los Tres",
-"Coordenadas":"22.54123°N,83.09311°W",
-"Productos":[{
-    "Friojoles Negros(1kg)":600,
-    "Refresco de Lata":210,
-    "Spaguetti(un)":350,
-    "Pasta de Pure(un)":450,
-    "Queso Gouda(1kg)":14000,
-    "Leche Condensada(un)":550,
-    "Aceite(1lt)":970,
-    "Caja de jugo(200ml)":200,
-    "Paquete de Salchicha(un)":400,
-    "Detergente(1kg)":750
-}]}
+"Coordenadas":"22.54123,83.09311",
+"Productos":[
+    {"nombre":"Friojoles Negros(1kg)","precio":600},
+    {"nombre":"Refresco de Lata","precio":210},
+    {"nombre":"Spaguetti(un)","precio":350},
+    {"nombre":"Pasta de Pure(un)","precio":450},
+    {"nombre":"Queso Gouda(1kg)","precio":14000},
+    {"nombre":"Leche Condensada(un)","precio":550},
+    {"nombre":"Aceite(1lt)","precio":970},
+    {"nombre":"Caja de jugo(200ml)","precio":200},
+    {"nombre":"Paquete de Salchicha(un)","precio":400},
+    {"nombre":"Detergente(1kg)","precio":750}
+]}

@@ -1,14 +1,14 @@
 {"Nombre":"Los Santos",
-"Coordenadas":"22.887637°N,-82.510597°O",
-"Productos":[{
-    "Refresco de Lata":220,
-    "Higado de Pollo(1kg)":800,
-    "Mortadella(500g)":700,
-    "Aceite(1lt)":1200,
-    "Barra de Guayaba":320,
-    "Paquete de Salchicha(un)":400,
-    "Croquetas(10un)":200,
-    "Queso Gouda(3kg)":12000,
-    "Arroz(1kg)":550,
-    "Leche Condensada": 600
-}]}
+"Coordenadas":"22.887637,-82.510597",
+"Productos":[
+    {"nombre":"Refresco de Lata","precio":220},
+    {"nombre":"Higado de Pollo(1kg)","precio":800},
+    {"nombre":"Mortadella(500g)","precio":700},
+    {"nombre":"Aceite(1lt)","precio":1200},
+    {"nombre":"Barra de Guayaba","precio":320},
+    {"nombre":"Paquete de Salchicha(un)","precio":400},
+    {"nombre":"Croquetas(10un)","precio":200},
+    {"nombre":"Queso Gouda(3kg)","precio":12000},
+    {"nombre":"Arroz(1kg)","precio":550},
+    {"nombre":"Leche Condensada","precio":600}
+]}

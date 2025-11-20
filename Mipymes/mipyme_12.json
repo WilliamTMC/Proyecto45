@@ -1,14 +1,14 @@
 {"Nombre":"Sanchez",
-"Coordenadas":"22.7165625°N,-83.0462031°O",
-"Productos":[{
-    "Spaguetti(500g)":350,
-    "Refresco de Lata":230,
-    "Arroz(1kg)":700,
-    "Papel Sanitario(4un)":650,
-    "Pasta de Tomate(un)":660,
-    "Aceite(1lt)":1000,
-    "Leche Condensada(un)":500,
-    "Yogurt Probiotico(ilt)":850,
-    "Queso Gouda(3kg)":15250,
-    "Frijoles Negros":600
-}]}
+"Coordenadas":"22.7165625,-83.0462031",
+"Productos":[
+    {"nombre":"Spaguetti(500g)","precio":350},
+    {"nombre":"Refresco de Lata","precio":230},
+    {"nombre":"Arroz(1kg)","precio":700},
+    {"nombre":"Papel Sanitario(4un)","precio":650},
+    {"nombre":"Pasta de Tomate(un)","precio":660},
+    {"nombre":"Aceite(1lt)","precio":1000},
+    {"nombre":"Leche Condensada(un)","precio":500},
+    {"nombre":"Yogurt Probiotico(ilt)","precio":850},
+    {"nombre":"Queso Gouda(3kg)","precio":15250},
+    {"nombre":"Frijoles Negros","precio":600}
+]}

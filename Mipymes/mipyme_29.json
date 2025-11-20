@@ -1,14 +1,14 @@
 {"Nombre":"",
 "Coordenadas":"",
-"Productos":[{
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":"",
-    "":""
-}]}
+"Productos":[
+    {"nombre":"","precio":},
+    {"nombre":"","precio":},
+    {"nombre":"","precio":},
+    {"nombre":"","precio":},
+    {"nombre":"","precio":},
+    {"nombre":"","precio":},
+    {"nombre":"","precio":},
+    {"nombre":"","precio":},
+    {"nombre":"","precio":},
+    {"nombre":"","precio":}
+]}

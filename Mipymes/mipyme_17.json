@@ -1,14 +1,14 @@
 {"Nombre":"Mercado Ideal",
-"Coordenadas":"22.98991°N,8275654°O",
-"Productos":[{
-    "Sal(lb)":90,
-    "Spaguetti(500g)":350,
-    "Arroz(1kg)":600,
-    "Frijoles Negros(1kg)":900,
-    "Aceite(1lt)":960,
-    "Pasta de Tomate(un)":500,
-    "Agua mineral(un)":120,
-    "Leche Condensada(un)":550,
-    "Refresco de Lata":220,
-    "Harina de Trigo(lb)":320
-}]}
+"Coordenadas":"22.98991,8275654",
+"Productos":[
+    {"nombre":"Sal(lb)","precio":90},
+    {"nombre":"Spaguetti(500g)","precio":350},
+    {"nombre":"Arroz(1kg)","precio":600},
+    {"nombre":"Frijoles Negros(1kg)","precio":900},
+    {"nombre":"Aceite(1lt)","precio":960},
+    {"nombre":"Pasta de Tomate(un)","precio":500},
+    {"nombre":"Agua mineral(un)","precio":120},
+    {"nombre":"Leche Condensada(un)","precio":550},
+    {"nombre":"Refresco de Lata","precio":220},
+    {"nombre":"Harina de Trigo(lb)","precio":320}
+]}

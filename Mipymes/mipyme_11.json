@@ -1,14 +1,14 @@
 {"Nombre":"Los Dominguez",
-"Coordenadas":"22.7166766°N,-83.0436353°O",
-"Productos":[{
-    "Aceite(1lt)":950,
-    "Refresco de Lata":210,
-    "Paquete de Caramelo(20un)":750,
-    "Levadura(un)":1600,
-    "Leche condensada(un)":450,
-    "Arroz(1kg)":550,
-    "Jamonada de Pollo(500g)":550,
-    "Botella de Vodka":1250,
-    "Yogurt Vasito(un)":190,
-    "Papel Sanitario(4un)":650
-}]}
+"Coordenadas":"22.7166766,-83.0436353",
+"Productos":[
+    {"nombre":"Aceite(1lt)","precio":950},
+    {"nombre":"Refresco de Lata","precio":210},
+    {"nombre":"Paquete de Caramelo(20un)","precio":750},
+    {"nombre":"Levadura(un)","precio":1600},
+    {"nombre":"Leche condensada(un)","precio":450},
+    {"nombre":"Arroz(1kg)","precio":550},
+    {"nombre":"Jamonada de Pollo(500g)","precio":550},
+    {"nombre":"Botella de Vodka","precio":1250},
+    {"nombre":"Yogurt Vasito(un)","precio":190},
+    {"nombre":"Papel Sanitario(4un)","precio":650}
+]}
