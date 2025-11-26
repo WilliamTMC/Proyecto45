@@ -1,14 +1,14 @@
-{"Nombre":"",
-"Coordenadas":"",
+{"Nombre":"Barateros",
+"Coordenadas":"22.801312,-82.507639",
 "Productos":[
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":}
+    {"nombre":"Refresco de Lata","precio":200},
+    {"nombre":"Pasta de Tomate","precio":350},
+    {"nombre":"Frijoles Negros(1kg)","precio":650},
+    {"nombre":"Paquete de Pollo(5lb)","precio":1640},
+    {"nombre":"Aceite(1lt)","precio":900},
+    {"nombre":"Azucar Blanca(lb)","precio":300},
+    {"nombre":"Spaguetti(500g)","precio":300},
+    {"nombre":"Picadillo de Pollo(400g)","precio":400},
+    {"nombre":"Cafe la Llave","precio":2500},
+    {"nombre":"Detergente(1kg)","precio":620}
 ]}

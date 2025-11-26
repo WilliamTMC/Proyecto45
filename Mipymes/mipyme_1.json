@@ -10,5 +10,5 @@
     {"nombre": "Aceite(1lt)","precio":1100},
     {"nombre": "Jamonada de pollo (500g)","precio":500},
     {"nombre": "Frijoles Negros(1kg)","precio":800},
-    {"nombre": "Refresco Gaseado de Lata","precio":220}
+    {"nombre": "Refresco de Lata","precio":220}
 ]}

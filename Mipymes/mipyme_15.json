@@ -3,7 +3,7 @@
 "Productos":[
     {"nombre":"Papel Sanitario(4un)","precio":600},
     {"nombre":"Jamonada de Pollo(500g)","precio":500},
-    {"nombre":"Refrescode Lata","precio":220},
+    {"nombre":"Refresco de Lata","precio":220},
     {"nombre":"Cafe la Llave","precio": 2800},
     {"nombre":"Arroz(1kg)","precio":550},
     {"nombre":"Caneca de Vodka","precio":880},

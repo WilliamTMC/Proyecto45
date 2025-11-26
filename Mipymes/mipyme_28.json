@@ -1,14 +1,14 @@
-{"Nombre":"",
-"Coordenadas":"",
+{"Nombre":"el Entronque",
+"Coordenadas":"22.954899,-82.760092",
 "Productos":[
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":}
+    {"nombre":"Refresco de Lata","precio":220},
+    {"nombre":"Aceite(1lt)","precio":950},
+    {"nombre":"Frijoles Negros(1kg)","precio":850},
+    {"nombre":"Mortadella(1kg)","precio":1300},
+    {"nombre":"Leche en Polvo(1kg)","precio":2500},
+    {"nombre":"Harina de Trigo(1kg)","precio":700},
+    {"nombre":"Azucar Blanca(1kg)","precio":650},
+    {"nombre":"Jamon Especial(lb)","precio":1000},
+    {"nombre":"Spaguetti(500g)","precio":350},
+    {"nombre":"Queso Gouda(3kg)","precio":12500}
 ]}

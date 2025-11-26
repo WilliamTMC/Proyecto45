@@ -1,14 +1,14 @@
-{"Nombre":"",
-"Coordenadas":"",
+{"Nombre":"De Barrio",
+"Coordenadas":"22.991774,-82.753849",
 "Productos":[
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":}
+    {"nombre":"Queso Gouda(3kg)","precio":11500},
+    {"nombre":"Higado de Pollo(1kg)","precio":850},
+    {"nombre":"Arroz(1kg)","precio":650},
+    {"nombre":"Azucar Blanca(lb)","precio":320},
+    {"nombre":"Leche Condensada(un)","precio":500},
+    {"nombre":"Carton de Huevos","precio":2700},
+    {"nombre":"Higado de Cerdo(lb)","precio":650},
+    {"nombre":"Detergente(1kg)","precio":700},
+    {"nombre":"Refresco de Lata","precio":220},
+    {"nombre":"Aceite(1lt)","precio":1000}
 ]}

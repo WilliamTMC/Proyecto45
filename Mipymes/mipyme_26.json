@@ -1,14 +1,14 @@
-{"Nombre":"",
-"Coordenadas":"",
+{"Nombre":"Mercado F.L.O",
+"Coordenadas":"22.48047,82.30244",
 "Productos":[
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":},
-    {"nombre":"","precio":}
+    {"nombre":"Yogurt(1lt)","precio":1300},
+    {"nombre":"Pechuga de Pollo(2lb)","precio":4300},
+    {"nombre":"Lomo Ahumado","precio":1200},
+    {"nombre":"Aceite(1lt)","precio":950},
+    {"nombre":"Arroz(1kg)","precio":600},
+    {"nombre":"Leche Condensada(un)","precio":600},
+    {"nombre":"Refresco de Lata","precio":220},
+    {"nombre":"Papel Sanitario(4un)","precio":600},
+    {"nombre":"Paquete de Salchicha(un)","precio":380},
+    {"nombre":"Frijoles(1kg)","precio":750}
 ]}
