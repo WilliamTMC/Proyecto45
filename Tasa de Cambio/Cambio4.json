@@ -1,3 +1,6 @@
 {"Fecha de Actualizacion":"22/11/26",
-"Moneda":["USD","MLC","EUR","CAD","MXN","BRL","ZELLE","CLA"],
-"Valor":[435,220,485,280.84,21.63,61.47,440.72,427.11]}
+"Cambio":[
+    {"nombre":"USD","valor":435},
+     {"nombre":"MLC","valor":225}
+]
+}

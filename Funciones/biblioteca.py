@@ -12,3 +12,7 @@ def promedio(l:list):
     s = suma(l)
     p = s/len(l)
     return p
+def convertir(n:int,m:int):
+    con = n * m 
+    return con 
+def comparar(a,b,c):
