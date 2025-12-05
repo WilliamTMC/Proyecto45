@@ -19,9 +19,4 @@ def convertir(n:int,m:int):
     con = n * m 
     return round(con)
 
-def valores_repetidos(l:list):
-    repetidos = []
-    for elemento in l:
-        if l.count(elemento) > 1 and elemento not in repetidos:
-            repetidos.append(elemento)
-    return repetidos
+
