@@ -4,10 +4,10 @@
     {"nombre":"Refresco de Lata","precio":220},
     {"nombre":"Aceite(1lt)","precio":950},
     {"nombre":"Frijoles Negros(1kg)","precio":850},
-    {"nombre":"Mortadella(1kg)","precio":1300},
+    {"nombre":"Mortadella(500g)","precio":750},
     {"nombre":"Leche en Polvo(1kg)","precio":2500},
-    {"nombre":"Harina de Trigo(1kg)","precio":700},
-    {"nombre":"Azucar Blanca(1kg)","precio":650},
+    {"nombre":"Yogurt Probiotico(1lt)","precio":1700},
+    {"nombre":"Azucar Blanca(lb)","precio":325},
     {"nombre":"Jamon Especial(lb)","precio":1000},
     {"nombre":"Spaguetti(500g)","precio":350},
     {"nombre":"Queso Gouda(3kg)","precio":12500}

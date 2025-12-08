@@ -2,13 +2,13 @@
 "Coordenadas":"22.885790,-82.511558",
 "Productos":[
     {"nombre":"Aceite(1lt)","precio":950},
-    {"nombre":"Paquete de Codito(un)","precio":350},
+    {"nombre":"Yogurt Probiotico(1lt)","precio":1750},
     {"nombre":"Arroz(1kg)","precio":650},
     {"nombre":"Pasta de Tomate(un)","precio":450},
     {"nombre":"Refresco de Lata","precio":210},
     {"nombre":"Pechuga de Pollo(2kg)","precio":4600},
-    {"nombre":"Jamonada(500g)","precio":600},
-    {"nombre":"Leche Condensada","precio":550},
+    {"nombre":"Jamonada de Pollo (500g)","precio":600},
+    {"nombre":"Leche Condensada(un)","precio":550},
     {"nombre":"Hamburguesa(un)","precio":85},
-    {"nombre":"Azucar Blanca(1kg)","precio":250}
+    {"nombre":"Azucar Blanca(lb)","precio":250}
 ]}

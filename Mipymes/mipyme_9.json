@@ -4,11 +4,11 @@
     {"nombre":"Carton de Huevos","precio":2600},
     {"nombre":"Mortadella(500g)","precio":550},
     {"nombre":"Spaguetti(500g)","precio":350},
-    {"nombre":"Azucar Blanca(1kg)","precio":600},
+    {"nombre":"Azucar Blanca(lb)","precio":300},
     {"nombre":"Arroz(1kg)","precio":650},
-    {"nombre":"Pasta de Tomate","precio":400},
+    {"nombre":"Pasta de Tomate(un)","precio":400},
     {"nombre":"Picadillo de Pollo(400g)","precio":400},
     {"nombre":"Aceite(1lt)","precio":950},
     {"nombre":"Refresco de Lata","precio":230},
-    {"nombre":"Leche Condensada","precio":600}
+    {"nombre":"Leche Condensada(un)","precio":600}
 ]}

@@ -1,14 +1,14 @@
 {"Nombre":"Bral",
 "Coordenadas":"22.98968,82.75576",
 "Productos":[
-    {"nombre": "Leche Condensada","precio": 550},
-    {"nombre": "Jamon Especial(lb)","precio" : 1000},
+    {"nombre":"Leche Condensada(un)","precio": 550},
+    {"nombre":"Jamon Especial(lb)","precio" : 1000},
     {"nombre":"Paquete de Salchicha(un)","precio": 500},
-    {"nombre": "Arroz(1kg)","precio":650},
-    {"nombre": "Pechuga de Pollo(2kg)","precio":5000},
-    {"nombre": "Hamburguesa(un)","precio":120},
-    {"nombre": "Aceite(1lt)","precio":1100},
-    {"nombre": "Jamonada de pollo (500g)","precio":500},
-    {"nombre": "Frijoles Negros(1kg)","precio":800},
-    {"nombre": "Refresco de Lata","precio":220}
+    {"nombre":"Arroz(1kg)","precio":650},
+    {"nombre":"Pechuga de Pollo(2kg)","precio":5000},
+    {"nombre":"Hamburguesa(un)","precio":120},
+    {"nombre":"Aceite(1lt)","precio":1100},
+    {"nombre":"Jamonada de Pollo (500g)","precio":500},
+    {"nombre":"Frijoles Negros(1kg)","precio":800},
+    {"nombre":"Refresco de Lata","precio":220}
 ]}

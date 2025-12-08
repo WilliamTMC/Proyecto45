@@ -19,4 +19,10 @@ def convertir(n:int,m:int):
     con = n * m 
     return round(con)
 
+def nombres_sin_repetir(lista):
+    nombres_vistos = []
+    for nombre in lista:
+        if nombre not in nombres_vistos:
+            nombres_vistos.append(nombre)
+    return nombres_vistos
 

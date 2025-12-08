@@ -2,13 +2,13 @@
 "Coordenadas":"22.811148,-82.763284",
 "Productos":[
     {"nombre":"Papel Sanitario(4un)","precio":600},
-    {"nombre":"Jamonada de Pollo(500g)","precio":500},
+    {"nombre":"Jamonada de Pollo (500g)","precio":500},
     {"nombre":"Refresco de Lata","precio":220},
-    {"nombre":"Cafe la Llave","precio": 2800},
+    {"nombre":"Yogurt Probiotico(1lt)","precio": 1800},
     {"nombre":"Arroz(1kg)","precio":550},
-    {"nombre":"Caneca de Vodka","precio":880},
+    {"nombre":"Botella de Vodka","precio":1480},
     {"nombre":"Aceite(1lt)","precio":950},
-    {"nombre":"Paquete de Pollo(5lb)","precio":1740},
+    {"nombre":"Paquete de Pollo(10lb)","precio":1740},
     {"nombre":"Spaguetti(500g)","precio":350},
     {"nombre":"Frijoles Negros(1kg)","precio":850}
 ]}

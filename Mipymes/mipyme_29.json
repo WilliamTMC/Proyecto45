@@ -4,10 +4,10 @@
     {"nombre":"Leche Condensada(un)","precio":500},
     {"nombre":"Pasta de Tomate(un)","precio":550},
     {"nombre":"Refresco de Lata","precio":230},
-    {"nombre":"amburguesa(un)","precio":80},
+    {"nombre":"Hamburguesa(un)","precio":80},
     {"nombre":"Arroz(1kg)","precio":550},
     {"nombre":"Papel Sanitario(4un)","precio":700},
-    {"nombre":"Cajas de Jugo(200ml)","precio":200},
+    {"nombre":"Yogurt Probiotico(1lt)","precio":1800},
     {"nombre":"Aceite(1lt)","precio":1000},
     {"nombre":"Jamonada de Pollo (500g)","precio":700},
     {"nombre":"Carton de Huevos","precio":2600}

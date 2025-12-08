@@ -6,9 +6,9 @@
     {"nombre":"Pechuga de Pollo(2kg)","precio":4200},
     {"nombre":"Higado de Pollo(1kg)","precio":800},
     {"nombre":"Azucar Blanca(lb)","precio":300},
-    {"nombre":"Frijoles Negros(1lb)","precio":400},
-    {"nombre":"Leche Condensadda(un)","precio":650},
+    {"nombre":"Frijoles Negros(1kg)","precio":800},
+    {"nombre":"Leche Condensada(un)","precio":650},
     {"nombre":"Paquete de Salchicha(un)","precio":500},
-    {"nombre":"Picadillo de Pollo(400g)","precio":400},
+    {"nombre":"Paquete de Pollo(10lb)","precio":5200},
     {"nombre":"Spaguetti(500g)","precio":350}
 ]}

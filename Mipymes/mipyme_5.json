@@ -1,14 +1,14 @@
 {"Nombre":"La Cabra",
 "Coordenadas":"22.892074,-82511891",
 "Productos":[
-    {"nombre":"Leche Condensada","precio":550},
+    {"nombre":"Leche Condensada(un)","precio":550},
     {"nombre":"Aceite(1lt)","precio":1000},
     {"nombre":"Pechuga de Pollo(2kg)","precio":4300},
     {"nombre":"Arroz(1kg)","precio":550},
     {"nombre":"Refresco de Lata","precio":220},
     {"nombre":"Spaguetti(500g)","precio":350},
     {"nombre":"Pasta de Tomate(un)","precio":450},
-    {"nombre":"Refresco Zuko","precio":100},
+    {"nombre":"Refresco Zuko(un)","precio":100},
     {"nombre":"Frijoles Negros(1kg)","precio":750},
-    {"nombre":"Pasta de Bocadito(465ml)","precio":1650}
+    {"nombre":"Azucar Blanca(lb)","precio":350}
 ]}
