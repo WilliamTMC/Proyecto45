@@ -3,7 +3,7 @@
 "Productos":[
     {"nombre":"Leche Condensada(un)","precio": 550},
     {"nombre":"Jamon Especial(lb)","precio" : 1000},
-    {"nombre":"Paquete de Salchicha(un)","precio": 500},
+    {"nombre":"Paquete de Salchicha(10u)","precio": 500},
     {"nombre":"Arroz(1kg)","precio":650},
     {"nombre":"Pechuga de Pollo(2kg)","precio":5000},
     {"nombre":"Hamburguesa(un)","precio":120},

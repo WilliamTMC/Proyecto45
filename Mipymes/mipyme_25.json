@@ -1,7 +1,7 @@
 {"Nombre":"Mercado La Joya",
 "Coordenadas":"22.904365,-83.157740",
 "Productos":[
-    {"nombre":"Azucar Blanca(lb)","precio":300},
+    {"nombre":"Azucar Blanca(1kg)","precio":600},
     {"nombre":"Harina de Trigo(1kg)","precio":650},
     {"nombre":"Refresco de Lata","precio":230},
     {"nombre":"Sal(lb)","precio":80},
@@ -9,6 +9,6 @@
     {"nombre":"Arroz(1kg)","precio":600},
     {"nombre":"Aceite(1lt)","precio":1100},
     {"nombre":"Paquete de Pollo(10lb)","precio":3900},
-    {"nombre":"Pasta de Tomate(un)","precio":450},
+    {"nombre":"Pasta de Tomate(400g)","precio":450},
     {"nombre":"Jamonada de Pollo (500g)","precio":650}
 ]}

@@ -1,7 +1,7 @@
 {"Nombre":"El As de Oro",
  "Coordenadas":"22.885790,-82.51158",
  "Productos":[
-     {"nombre":"Azucar Blanca","precio":1.80},
+     {"nombre":"Azucar Blanca(1kg)","precio":1.80},
      {"nombre":"Papas Prefritas","precio":4.50},
      {"nombre":"Sardina en Aceite","precio":1.60},
      {"nombre":"Sardina en Tomate","precio":1.95},
@@ -9,11 +9,11 @@
      {"nombre":"Queso Gouda PRemiun(3kg)","precio":11.85},
      {"nombre":"Queso Gouda(3kg)","precio":10.65},
      {"nombre":"Gelatina","precio":2.75},
-     {"nombre":"Spaguetti","precio":1.95},
+     {"nombre":"Spaguetti(500g)","precio":1.95},
      {"nombre":"Pasta Corta","precio":1.15},
      {"nombre":"Fideos(500g)","precio":1.7},
-     {"nombre":"Aceite Girasol(1lt)","precio":2.4},
-     {"nombre":"Salchicha(10u)","precio":2.75},
+     {"nombre":"Aceite(1lt)","precio":2.4},
+     {"nombre":"Paquete de Salchicha(10u)","precio":2.75},
      {"nombre":"Caja de Pollo (15kg)","precio":29},
      {"nombre":"Jugos(200ml)","precio":0.6},
      {"nombre":"Jugos(1lt)","precio":2.35},
@@ -24,12 +24,12 @@
      {"nombre":"Salchicha(3kg)","precio":8.25},
      {"nombre":"Salchicha","precio":1.3},
      {"nombre":"Frijoles Rojos(1kg)","precio":2.3},
-     {"nombre":"Frijoles Blancos","precio":2.3},
-     {"nombre":"Frijoles Negros","precio":3.2},
+     {"nombre":"Frijoles Blancos(1kg)","precio":2.3},
+     {"nombre":"Frijoles Negros(1kg)","precio":3.2},
      {"nombre":"Chicharos Partidos","precio":1.6},
      {"nombre":"Leche en Polvo(1kg)","precio":11.85},
      {"nombre":"Huevo Grado A","precio":5.95},
-     {"nombre":"Huevo","precio":5.25},
+     {"nombre":"Carton de Huevos","precio":5.25},
      {"nombre":"Pasta Dental Pepsodent","precio":2.90},
      {"nombre":"Pasta Dental Colgate","precio":2.20},
      {"nombre":"Pasta Dental Clouset","precio":2.10},
@@ -42,6 +42,8 @@
      {"nombre":"Malta Perla Negra","precio":0.85},
      {"nombre":"Refresco Zuko","precio":0.45},
      {"nombre":"Agua Mineral(500g)","precio":0.50},
-     {"nombre":"Agua Mineral(1500ml)","precio":1.50}
+     {"nombre":"Agua Mineral(1500ml)","precio":1.50},
+     {"nombre":"Leche Condensada(un)","precio":2.45}
+
  ]
 }

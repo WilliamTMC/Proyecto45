@@ -6,8 +6,8 @@
     {"nombre":"Mortadella(500g)","precio":700},
     {"nombre":"Aceite(1lt)","precio":1200},
     {"nombre":"Spaguetti(500g)","precio":350},
-    {"nombre":"Paquete de Salchicha(un)","precio":400},
-    {"nombre":"Azucar Blanca(lb)","precio":350},
+    {"nombre":"Paquete de Salchicha(10u)","precio":400},
+    {"nombre":"Azucar Blanca(1kg)","precio":600},
     {"nombre":"Queso Gouda(3kg)","precio":12000},
     {"nombre":"Arroz(1kg)","precio":550},
     {"nombre":"Leche Condensada(un)","precio":600}
