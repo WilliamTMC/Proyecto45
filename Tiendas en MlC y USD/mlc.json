@@ -43,7 +43,9 @@
      {"nombre":"Refresco Zuko","precio":0.45},
      {"nombre":"Agua Mineral(500g)","precio":0.50},
      {"nombre":"Agua Mineral(1500ml)","precio":1.50},
-     {"nombre":"Leche Condensada(un)","precio":2.45}
+     {"nombre":"Leche Condensada(un)","precio":2.45},
+     {"nombre":"Jamonada de Pollo (500g)","precio":3.80},
+     {"nombre":"Yogurt Probiotico(1lt)","precio":3.65}
 
  ]
 }
