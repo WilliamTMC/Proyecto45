@@ -15,6 +15,10 @@ def promedio(l:list):
     p = s/len(l)
     return p
 
+def convertir(a:int,b:int):
+    resultado = a * b
+    return round(resultado)
+
 def nombres_sin_repetir(lista):
     nombres_vistos = []
     for nombre in lista:
