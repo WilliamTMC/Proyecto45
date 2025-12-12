@@ -26,3 +26,24 @@ def nombres_sin_repetir(lista):
             nombres_vistos.append(nombre)
     return nombres_vistos
 
+def obtener_nombres_y_precios(contenido):
+    productos = {}
+
+    for item in contenido:
+        for producto in item["Productos"]:
+            nombre = producto["nombre"]
+            precio = producto["precio"]
+            if nombre not in productos:
+                productos[nombre] = []
+            productos[nombre].append(precio)
+    
+    return productos
+
+def extraer_valores_de_cambio(contenido, moneda:str):
+    valores = []
+    for registro in contenido:
+        for cambio in registro.get("Cambio", []):
+            if cambio.get("nombre") == moneda:
+                valores.append(cambio.get("valor"))
+    return valores
+
