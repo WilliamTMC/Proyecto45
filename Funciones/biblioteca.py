@@ -47,3 +47,12 @@ def extraer_valores_de_cambio(contenido, moneda:str):
                 valores.append(cambio.get("valor"))
     return valores
 
+def guardar_producto_lista(diccionario, producto, lista_destino):
+    if producto in diccionario:
+        lista_destino.append((producto, diccionario[producto]))
+
+def acceder_precio_lista(l1:list,l2:list):
+    for i in l1:
+        l2.append(i[1])
+    
+        
