@@ -55,4 +55,16 @@ def acceder_precio_lista(l1:list,l2:list):
     for i in l1:
         l2.append(i[1])
     
-        
+def productos_comprables(diccionario:dict, presupuesto:int):
+    comprables = []
+    for producto, precio in diccionario.items():
+        if precio <= presupuesto:
+            cantidad = presupuesto // precio
+            comprables.append((producto, precio, cantidad))
+    return comprables
+
+def convertir_mlc_usd(a:int,b:int):
+    resultado = a / b
+    return round(resultado)
+
+            
