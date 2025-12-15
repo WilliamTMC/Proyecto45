@@ -1,4 +1,6 @@
 import json
+import matplotlib.pyplot as plt
+import operator
 def open_json(path):
     with open(path,"r",encoding="utf-8") as file :
         read = json.loads(file.read())
@@ -67,4 +69,49 @@ def convertir_mlc_usd(a:int,b:int):
     resultado = a / b
     return round(resultado)
 
+def graficar_top_productos(productos_con_precios:dict):
+    # Calcular frecuencia de cada producto
+    frecuencia_de_productos = {
+        nombre: len(precios)
+        for nombre, precios in productos_con_precios.items()
+    }
+
+    # Ordenar por frecuencia descendente:
+    #sorted sirve para ordenar elementos de una secuencia en este caso un diccionario y devuelve una lista con tuplas
+    #operator.itemgetter(1) ordena la lista tomando en cuenta el segunda valor de cada tupla que seria el precio
+    #reverse=True ordena en orden descentente de mayor a menor 
+    frecuencia_ordenada = sorted(frecuencia_de_productos.items(),key=operator.itemgetter(1),reverse=True)
+
+    # Tomar los 10 más frecuentes
+    top_10_productos = frecuencia_ordenada[:10]#tomo los 10 primeros valores de la lista
+
+    # Separar nombres y cantidades
+    nombres = []#lista para almacenar los nombres de los productos
+    cantidades = []#lista para almacenar las veces que se repete cada producto 
+    for i in top_10_productos:#itero sobre la lista que contiene los 10 productos mas repetidos 
+        nombre = i[0] #nombre va a tomar el primer valor de cada tupla que seria el nombre
+        cantidad = i [1] #cantidad va a tomar el segundo valor de cada tupla que seria el len
+        nombres.append(nombre)
+        cantidades.append(cantidad)
+        #agrego cada resultado a las listas creadas 
+
+    # Graficar pastel
+    plt.figure(figsize=(8, 8))#tamaño del grafico
+    plt.pie(cantidades, labels=nombres, autopct='%1.1f%%', startangle=140)#creo un grafico de pastel
+    #Aclaraciones:
+    #cantidades serian los valores que irian dentro de cada porcion del pastel
+    #labels seria los nombres de cada producto que irian afuera de cada porcion del pastel 
+    #autopct='%1.1f%%' redondea cada resultado a un lugar despues de la coma 
+    #startangle=140 rota el gráfico para que el primer sector comience a 140 grados desde el eje horizontal. Esto mejora la estética y evita que las etiquetas se amontonen.
+    plt.title("Distribución de los 10 productos más repetidos en mipymes")#titulo del grafico
+    plt.axis('equal')#hace que el gráfico se fuerce a ser perfectamente circular, lo que mejora la estética y la precisión visual.
+    plt.tight_layout()#Ajusta automáticamente el diseño de la figura en Matplotlib para que los elementos (gráficos, títulos, etiquetas, leyendas) no se solapen ni queden cortados en la visualización
+    plt.show()
+
+    # Imprimir frecuencias y porcentajes
+    total_apariciones = sum(cantidades) #Utilizo sum para sumar todos los valores de la lista cantidades 
+    print("Productos más repetidos y sus frecuencias en 30 Mipymes:")
+    for nombre, cantidad in zip(nombres, cantidades):#itero sobre las dos listas creadas que almacenan los nombres y el len de cada producto
+        porcentaje = (cantidad / total_apariciones) * 100#declaro una variable para saber el porciento que representa cada repeticion 
+        print(f"{nombre}: {cantidad} veces ({round(porcentaje, 1)}%)")#uso round para redondear el valor del prociento a un lugar despues de la coma
             
