@@ -151,7 +151,6 @@ def grafico_linea(lista_fechas:list,lista_valoresmlc:list,lista_valoresusd:list)
     #Grafico
     plt.plot(fechas_ordenadas, mlc_ordenado, 'o-b', label='MLC')
     plt.plot(fechas_ordenadas, usd_ordenado, 's-g', label='USD')
-    plt.xticks(rotation=45)
     plt.title("Comportamiento del MLC y USD en el tiempo")
     plt.xlabel("Fecha de Actualización")
     plt.ylabel("Valor en CUP")
