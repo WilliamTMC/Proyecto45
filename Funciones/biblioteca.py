@@ -1,6 +1,5 @@
 import json#Sirve para trabajar con datos en formato .json
 import matplotlib.pyplot as plt#Sirve para graficar
-import numpy as np#Sirve para manejar y calcular datos numéricos de manera rápida
 import datetime  #Sirve para trabajar con fechas y horas de manera precisa y flexible. 
 
 #Funciones:
@@ -84,10 +83,11 @@ def verificar_existencia(diccionario:dict,lista:list,destino_nombre:list,destino
 
 def grafico_pastel(lista_valores:list,lista_nombres:list):
     plt.figure(figsize=(8, 8))
-    plt.pie(lista_valores, labels=lista_nombres, autopct='%1.1f%%', startangle=140)
+    plt.pie(lista_valores ,labels=lista_nombres, autopct='%1.1f%%', startangle=140)
     plt.axis('equal')
     plt.tight_layout()
     plt.show()
+            
             
                 
 def grafico_radar(d:dict):
@@ -96,14 +96,12 @@ def grafico_radar(d:dict):
     valores = list(d.values())
     #Verifico la cantidad de nombres que hay 
     num_vars = len(nombres)
-    #Genero una lista de ángulos uniformemente distribuidos en el círculo
-    angulos = np.linspace(0, 2*np.pi, num_vars, endpoint=False).tolist()
-    #Aclaraciones
-    #0 angulo inicial (0 radianes).
-    #2*np.pi  angulo final (un círculo completo = 360° en radianes).
-    #num_vars cantidad de divisiones (tantos angulos como productos).
-    #endpoint=False evita incluir el angulo final (2π), porque al cerrar el grafico se añade manualmente.
-    #.tolist() convierte el resultado en una lista
+    #Angulos
+    angulo_inicial = 0 
+    angulo_final = 2 * 3.14
+    paso = (angulo_final - angulo_inicial) / num_vars 
+    angulos = [angulo_inicial + i * paso for i in range(num_vars)]
+    #Radios y posiciones
     valores += valores[:1]#radios de la figura
     angulos += angulos[:1]#posiciones angulares de la figura 
     #Grafico
@@ -117,8 +115,8 @@ def grafico_radar(d:dict):
                 
 def grafico_tiendas(lista_nombres1:list,preciosl1:list,lista_nombres2:list,preciosl2:list):
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
-    x1 = np.arange(len(lista_nombres1))
-    x2 = np.arange(len(lista_nombres2))
+    x1 = range(len(lista_nombres1))
+    x2 = range(len(lista_nombres2))
     #Grafico de la primera tienda
     ax1.bar(x1, preciosl1, color='skyblue')
     ax1.set_title("Precios en Tienda MLC")
@@ -164,19 +162,18 @@ def grafico_linea(lista_fechas:list,lista_valoresmlc:list,lista_valoresusd:list)
 def grafico_comparacion_precios_tiendas(lista_nombres:list,lista_preciosmlc_cup:list,lista_preciosusd_cup:list):
     
     #Posiciones para las barras agrupadas
-    x = np.arange(len(lista_nombres))
-    #Aclaraciones
-    #np.arange(len(nombre_productosmlc))genera un array de NumPy con valores enteros desde 0 hasta el len(nombre_productosmlc) sin incluir el ultimo valor
-    #x es un array que representa las posiciones de cada producto en el eje X del gráfico,es decir, cada número corresponde a un producto en tu lista
+    x = list(range(len(lista_nombres)))
     #Grafico
     ancho = 0.35  # ancho de cada barra
+    x_mlc = [i - ancho/2 for i in x]
+    x_usd = [i + ancho/2 for i in x]
     fig, ax = plt.subplots(figsize=(12, 6))
-    barras_mlc = ax.bar(x - ancho/2, lista_preciosmlc_cup, width=ancho, label='MLC en CUP', color='skyblue')
-    barras_usd = ax.bar(x + ancho/2, lista_preciosusd_cup, width=ancho, label='USD en CUP', color='lightgreen')
+    barras_mlc = ax.bar(x_mlc, lista_preciosmlc_cup, width=ancho, label='MLC en CUP', color='skyblue')
+    barras_usd = ax.bar(x_usd, lista_preciosusd_cup, width=ancho, label='USD en CUP', color='lightgreen')
     #Etiquetas encima de cada barra
     for i in range(len(x)):
-        ax.text(x[i] - ancho/2, lista_preciosmlc_cup[i] + 5, str(lista_preciosmlc_cup[i]), ha='center', fontsize=9)
-        ax.text(x[i] + ancho/2, lista_preciosusd_cup[i] + 5, str(lista_preciosusd_cup[i]), ha='center', fontsize=9)
+        ax.text(x_mlc[i], lista_preciosmlc_cup[i] + 5, str(lista_preciosmlc_cup[i]), ha='center', fontsize=9)
+        ax.text(x_usd[i], lista_preciosusd_cup[i] + 5, str(lista_preciosusd_cup[i]), ha='center', fontsize=9)
     #Etiquetas y título
     ax.set_title("Comparación de precios en CUP desde MLC y USD")
     ax.set_xlabel("Productos")
@@ -189,20 +186,24 @@ def grafico_comparacion_precios_tiendas(lista_nombres:list,lista_preciosmlc_cup:
     
 def grafico_tienda_vs_mipymes(lista_nombres:list,lista_preciosmlc_cup:list,lista_preciosusd_cup:list,lista_preciosmipymes):
     
-    x = np.arange(len(lista_nombres))
+    x = list(range(len(lista_nombres)))
     ancho = 0.25
+    #Posiciones desplazadas para cada grupo
+    x_mlc = [i - ancho for i in x]
+    x_usd = x
+    x_mipyme = [i + ancho for i in x]
     fig, ax = plt.subplots(figsize=(14, 6))
-    ax.bar(x - ancho, lista_preciosmlc_cup, width=ancho, label='MLC en CUP', color='skyblue')
-    ax.bar(x, lista_preciosusd_cup, width=ancho, label='USD en CUP', color='lightgreen')
-    ax.bar(x + ancho, lista_preciosmipymes, width=ancho, label='Mipymes en CUP', color='salmon')
+    ax.bar(x_mlc, lista_preciosmlc_cup, width=ancho, label='MLC en CUP', color='skyblue')
+    ax.bar(x_usd, lista_preciosusd_cup, width=ancho, label='USD en CUP', color='lightgreen')
+    ax.bar(x_mipyme, lista_preciosmipymes, width=ancho, label='Mipymes en CUP', color='salmon')
     #Etiquetas encima de cada barra
     for i in range(len(x)):
         # MLC
-            ax.text(x[i] - ancho, lista_preciosmlc_cup[i] + 5, f"${lista_preciosmlc_cup[i]}", ha='center', fontsize=8)
+            ax.text(x_mlc[i], lista_preciosmlc_cup[i] + 5, f"${lista_preciosmlc_cup[i]}", ha='center', fontsize=8)
         # USD
-            ax.text(x[i], lista_preciosusd_cup[i] + 5, f"${lista_preciosusd_cup[i]}", ha='center', fontsize=8)
+            ax.text(x_usd[i], lista_preciosusd_cup[i] + 5, f"${lista_preciosusd_cup[i]}", ha='center', fontsize=8)
         # Mipymes
-            ax.text(x[i] + ancho, lista_preciosmipymes[i] + 5, f"${lista_preciosmipymes[i]}", ha='center', fontsize=8)
+            ax.text(x_mipyme[i], lista_preciosmipymes[i] + 5, f"${lista_preciosmipymes[i]}", ha='center', fontsize=8)
     #Personalizacion
     ax.set_title("Comparación de precios en CUP entre MLC, USD y Mipymes")
     ax.set_xlabel("Productos")
@@ -213,16 +214,16 @@ def grafico_tienda_vs_mipymes(lista_nombres:list,lista_preciosmlc_cup:list,lista
     plt.tight_layout()
     plt.show()
 
-def grafico_precio_canastas(salario:int,precio_canasta1:int,precio_canasta2:int):
+def grafico_precio_compras(salario:int,precio_compra1:int,precio_compra2:int):
     #Calculo de sobrante o déficit
-    sobrante1 = max(salario - precio_canasta1, 0)
-    deficit1 = max(precio_canasta1 - salario, 0)
-    sobrante2 = max(salario - precio_canasta2, 0)
-    deficit2 = max(precio_canasta2 - salario, 0)
+    sobrante1 = max(salario - precio_compra1, 0)
+    deficit1 = max(precio_compra1 - salario, 0)
+    sobrante2 = max(salario - precio_compra2, 0)
+    deficit2 = max(precio_compra2 - salario, 0)
 
     #Preparar valores para stacked bar
     labels = ['Canasta 1', 'Canasta 2']
-    gastos = [min(precio_canasta1, salario), min(precio_canasta2, salario)]
+    gastos = [min(precio_compra1, salario), min(precio_compra2, salario)]
     sobrantes = [sobrante1, sobrante2]
     deficits = [deficit1, deficit2]
 
@@ -249,8 +250,8 @@ def grafico_precio_canastas(salario:int,precio_canasta1:int,precio_canasta2:int)
         if deficits[i] > 0:
             ax.text(i, gastos[i] + deficits[i]/2, f"-{deficits[i]} CUP", ha='center', va='center', fontsize=9, color='black')
     #Personalizacion
-    ax.set_ylabel("Valor de cada canasta en (CUP)")
-    ax.set_title("Comparación entre salario mínimo y precio de canastas básicas")
+    ax.set_ylabel("Valor de cada compra en (CUP)")
+    ax.set_title("Comparación entre salario mínimo y precio de las compras")
     ax.legend()
     plt.tight_layout()
     plt.show()
